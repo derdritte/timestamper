@@ -2,14 +2,13 @@
 
 ## What
 
-This script splits up an audiofile from Google Books, which you can download for some of the audiobooks they offer. The combined audiofile is separated into chapters and tagged appropriately (with title and track-number, other tags are copied from the input-file).
+This script splits up an exported audiobook from Google Books, which you can download for some of the audiobooks they offer. This combined audiofile is separated into chapters and tagged appropriately (with title and track-number, other tags are copied from the input-file).
 
 ## Requirements
 
 * ffmpeg
 * python3.7+
 * pip (or whatever you want to install the requirements with)
-* see requirements.txt
 * internet connection (to connect to Google Books via http/s, nothing complicated)
 * the exported audiofile from Google Books
 * the link to the audiobook you are working with
@@ -18,16 +17,16 @@ This script splits up an audiofile from Google Books, which you can download for
 
 Clone the repo
 
-    $ git clone https://gitea.derdritte.net/markus/timestamper.git
+    git clone https://gitea.derdritte.net/markus/timestamper.git
 
 Switch folder
 
-    $ cd timestamper
+    cd timestamper
 
 Create and active a virtualenv (optional, but recommended)
 
-    $ python -m venv .venv
-    $ source .venv/bin/activate
+    python -m venv .venv
+    source .venv/bin/activate
 
 Install dependencies
 
@@ -45,7 +44,7 @@ You are done! You can now run the script.
 
 For installation see above. Once the script is working, you need to download the audiofile from google. This script will not (!) do this for you, this script does not download any copyrighted material whatsoever, it only helps with metadata.
 
-1. Go to https://play.google.com/books
+1. Go to <https://play.google.com/books>
 2. Some books in your library will show the "Export" option when you click on the three dots on the card of a specific audiobook. Click on that "Export"-link, choose your preferred quality and download the file to a location you can reference easily.
 3. Copy the link to the detail-page of the audiobook. You can just click on the picture for the audiobook you are working with and then copy the link from the location-bar; or right-click on the picture and select "Copy Link Location" (Firefox)
 4. With all that done, you can now call the script
@@ -57,7 +56,7 @@ For installation see above. Once the script is working, you need to download the
 5. You will start to see progress-output or errors in your terminal.
 6. That's it!
 
-If you want to try this out before you buy an audiobook, Google Books offers some free audiobooks (at least for now), which will also work with this script. Just make sure the audiobook has the option for "export" available. You can start here: https://play.google.com/store/books/category/audiobooks
+If you want to try this out before you buy an audiobook, Google Books offers some free audiobooks (at least for now), which will also work with this script. Just make sure the audiobook has the option for "export" available. You can start here: <https://play.google.com/store/books/category/audiobooks>
 
 ## Why
 
