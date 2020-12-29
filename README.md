@@ -1,5 +1,7 @@
 # timestamper
 
+This is a mirror of https://gitea.derdritte.net/markus/timestamper, most reference will be to that repository.
+
 ## What
 
 This script splits up an exported audiobook from Google Books, which you can download for some of the audiobooks they offer. This combined audiofile is separated into chapters and tagged appropriately (with title and track-number, other tags are copied from the input-file).
